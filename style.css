@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    background: linear-gradient(90deg, red, purple, blue);
+    position: relative;
+}
+
+.desc{
+    font-size: large;
+    color: white;
+    box-shadow: 0px 0px 15px rgb(53, 52, 52);
+    background: linear-gradient(90deg, rgb(188, 2, 188), rgb(237, 89, 114), rgb(234, 156, 11));
+    width: 85vw;
+    height: 80vh;
+    box-shadow: 2px solid black;
+    margin: 100px;
+    
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+img{
+    height: 350px;
+    width: 550px;
+    margin-top: -50px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 10px;
+}
+
+img:hover {
+    transform: scale(1.7);
+    padding-top: 50px;
+    position: absolute;
+    transform-origin: right;
+}
